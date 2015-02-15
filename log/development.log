@@ -611,3 +611,63 @@ Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2015-02-15 13:59:43 -0800
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-15 13:59:43 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-15 14:02:39 -0800
+Processing by MainController#scrobbler as HTML
+  Rendered main/scrobbler.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-02-15 14:02:39 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-15 14:02:39 -0800
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-02-15 14:02:39 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-15 14:02:39 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-15 14:02:39 -0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2015-02-15 14:02:39 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-15 14:02:39 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-15 14:02:39 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-15 14:05:13 -0800
+Processing by MainController#scrobbler as HTML
+  Rendered main/scrobbler.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 134ms (Views: 131.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2015-02-15 14:05:13 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-15 14:05:13 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-15 14:05:13 -0800
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-02-15 14:05:13 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-15 14:05:13 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-15 14:05:13 -0800
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2015-02-15 14:05:13 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-15 14:05:13 -0800
