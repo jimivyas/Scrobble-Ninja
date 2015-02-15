@@ -16,9 +16,9 @@ section {
 	height: 500px;
 	display: block;
 	margin-right: auto;
-	margin-left: auto; 
+	margin-left: auto;
 	/*not supporting IE6 >:)*/
-	background-color: red;
+	background-color: #540023;
 	border-radius: 4px;
 
 }
