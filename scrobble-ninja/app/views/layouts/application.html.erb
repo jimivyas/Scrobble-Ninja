@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>ScrobbleNinja</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
 
-<%= yield %>
+<html lang='en'>
+
+<head>
+	title>Scrobble Ninja</title>
+	<meta name='keywords' content='Music, scrobble, last.fm, data, album'>
+	<meta name="description" content="A simple, useful scrobbling program for last.fm">
+	<meta charset="UTF-8">
+	<meta name='author' content='Jimi Vyas'>
+
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+
+</head>
+<header>
+		<header>
+			<img src='../../app/assets/images/logo.png'>
+		</header>
+
+<body>
+	<main>
+		<section>
+			Scrobble Ninja - the best scrobbler that doesn't exist yet.
+		</section>
+		<section>
+			<%= yield %>
+		</section>
+	</main>
 
 </body>
 </html>
