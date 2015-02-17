@@ -3,7 +3,6 @@ body {
 	overflow: auto;
 	background-image: url(background.jpg);
 	background-size: 120%;
-	overflow: auto;
 	text-align: center;
 	font-family: Arial;
 	color: #F0EAD6;
@@ -14,39 +13,33 @@ main {
 	display: block;
 }
 
-.middle {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	/* this vertically centers it >:D*/
-}
+
 
 
 section {
 	position: relative;
-	z-index: 3;
-	text-align: center;
 	width: 60%;
+	text-align: center;
 	height: 500px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	z-index: 3;
 	/*not supporting IE6 >:)*/
 	background-color: #540023;
 	border-radius: 22px;
 }
 
 footer {
-	font-size: 12px;
 	position: relative;
+	font-size: 12px;
+	width: 60%;
 	z-index: 1;
 	text-align: left;
-	width: 60%;
 	height: 70px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	display: block;
 	background-color: #990033;
 	border-radius: 22px;
 	margin-top: -63px;
@@ -56,4 +49,10 @@ footer div {
 	padding-top: 43px;
 	margin-top: 25px;
 	margin-left: 18px;
+}
+
+#footer-text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
