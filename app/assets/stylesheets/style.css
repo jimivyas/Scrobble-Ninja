@@ -23,6 +23,8 @@ main {
 
 
 section {
+	position: relative;
+	z-index: 3;
 	text-align: center;
 	width: 60%;
 	height: 500px;
@@ -32,5 +34,25 @@ section {
 	/*not supporting IE6 >:)*/
 	background-color: #540023;
 	border-radius: 22px;
+}
 
+footer {
+	font-size: 12px;
+	position: relative;
+	z-index: 1;
+	text-align: left;
+	width: 60%;
+	height: 70px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	background-color: #990033;
+	border-radius: 22px;
+	margin-top: -35px;
+}
+
+footer div {
+	margin-top: 25px;
+	margin-left: 18px;
 }
