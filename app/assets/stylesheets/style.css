@@ -5,25 +5,18 @@ body {
 	background-size: 120%;
 	text-align: center;
 	font-family: Arial;
-	color: #F0EAD6;
 	font-size: 20px;
+	color: #F0EAD6;
 }
 
 main {
 	display: block;
 }
 
-
-
-
 section {
-	position: relative;
-	width: 60%;
 	text-align: center;
 	height: 500px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+
 	z-index: 3;
 	/*not supporting IE6 >:)*/
 	background-color: #540023;
@@ -31,28 +24,28 @@ section {
 }
 
 footer {
-	position: relative;
 	font-size: 12px;
-	width: 60%;
 	z-index: 1;
 	text-align: left;
 	height: 70px;
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
 	background-color: #990033;
 	border-radius: 22px;
 	margin-top: -63px;
 }
 
 footer div {
-	padding-top: 43px;
+	padding-top: 30px;
 	margin-top: 25px;
 	margin-left: 18px;
-}
-
-#footer-text {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+.generic-style {
+	position: relative;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
 }
