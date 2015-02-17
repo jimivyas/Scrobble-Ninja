@@ -49,10 +49,11 @@ footer {
 	display: block;
 	background-color: #990033;
 	border-radius: 22px;
-	margin-top: -35px;
+	margin-top: -63px;
 }
 
 footer div {
+	padding-top: 43px;
 	margin-top: 25px;
 	margin-left: 18px;
 }
