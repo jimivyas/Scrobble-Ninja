@@ -14,6 +14,14 @@ main {
 	display: block;
 }
 
+.middle {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	/* this vertically centers it >:D*/
+}
+
+
 section {
 	text-align: center;
 	width: 60%;
