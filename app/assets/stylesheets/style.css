@@ -9,18 +9,18 @@ body {
 	color: #F0EAD6;
 }
 
-main {
-	display: block;
-}
-
 section {
 	text-align: center;
 	height: 500px;
-
 	z-index: 3;
 	/*not supporting IE6 >:)*/
 	background-color: #540023;
-	border-radius: 22px;
+}
+
+section div {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 footer {
@@ -30,17 +30,13 @@ footer {
 	height: 70px;
 	display: block;
 	background-color: #990033;
-	border-radius: 22px;
 	margin-top: -63px;
 }
 
 footer div {
-	padding-top: 30px;
-	margin-top: 25px;
+	padding-top: 50px;
+	margin-top: 20px;
 	margin-left: 18px;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 .generic-style {
@@ -48,4 +44,5 @@ footer div {
 	width: 60%;
 	margin-right: auto;
 	margin-left: auto;
+	border-radius: 22px;
 }
